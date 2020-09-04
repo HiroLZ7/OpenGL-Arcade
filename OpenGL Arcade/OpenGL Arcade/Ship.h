@@ -36,7 +36,7 @@ public:
 	bool useBullet;
 	int damage;
 	bool contBullet;
-	bool bulletCollision
+	bool bulletCollision;
 	Ship();
 	std::string getWeaponType();
 	int getHealth();
