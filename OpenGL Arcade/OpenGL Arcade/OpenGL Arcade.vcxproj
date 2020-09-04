@@ -124,7 +124,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\OpenGL Shmarkade\OpenGL Arcade\SpaceShip.cpp" />
+    <ClCompile Include="SpaceShip.cpp">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Ship.cpp" />
@@ -132,8 +134,8 @@
     <ClCompile Include="SpaceShipTwo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\OpenGL Shmarkade\OpenGL Arcade\linmath.h" />
-    <ClInclude Include="..\..\OpenGL Shmarkade\OpenGL Arcade\SpaceShip.h" />
+    <ClInclude Include="linmath.h" />
+    <ClInclude Include="SpaceShip.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="SpaceShipThree.h" />
     <ClInclude Include="Ship.h" />

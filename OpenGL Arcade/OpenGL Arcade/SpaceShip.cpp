@@ -102,15 +102,15 @@ void SpaceShip::drawShip() {
 	glEnd();
 	if (((x + .04 <= enemy1X + .04) && (x + .04 >= enemy1X - .04) || (x - .04 <= enemy1X + .04) && (x - .04 >= enemy1X - .04)) && (y >= enemy1Y - .05) && (y <= enemy1Y)) {
 		isKilled = true;
-		PlaySound("explosion.wav", NULL, SND_ASYNC);
+		//PlaySound("explosion.wav", NULL, SND_ASYNC);
 	}
 	if (((x + .04 <= enemy2X + .04) && (x + .04 >= enemy2X - .04) || (x - .04 <= enemy2X + .04) && (x - .04 >= enemy2X - .04)) && (y >= enemy2Y - .05) && (y <= enemy2Y)) {
 		isKilled = true;
-		PlaySound("explosion.wav", NULL, SND_ASYNC);
+		//PlaySound("explosion.wav", NULL, SND_ASYNC);
 	}
 	if (((x + .04 <= enemy3X + .04) && (x + .04 >= enemy3X - .04) || (x - .04 <= enemy3X + .04) && (x - .04 >= enemy3X - .04)) && (y >= enemy3Y - .05) && (y <= enemy3Y)) {
 		isKilled = true;
-		PlaySound("explosion.wav", NULL, SND_ASYNC);
+		//PlaySound("explosion.wav", NULL, SND_ASYNC);
 	}
 }
 
@@ -140,7 +140,7 @@ void SpaceShip::MoveShip() {
 void SpaceShip::genBullet() {
 	if (GetKeyState(VK_SPACE) & 0x8000) {
 		contBullet = true;
-		PlaySound("shoot.wav", NULL, SND_ASYNC);
+		//PlaySound("shoot.wav", NULL, SND_ASYNC);
 		
 	}
 }
@@ -164,7 +164,7 @@ void SpaceShip::drawBullet(bool cont) {
 			enemy1X = (float)(rand() % 200 - 100) / 100;
 			enemy1Y = (float)(rand() % 100) / 100;
 			incrementENemy += .0000001;
-			PlaySound("invaderkilled.wav", NULL, SND_ASYNC);
+			//("invaderkilled.wav", NULL, SND_ASYNC);
 			score++;
 		}
 		if ((x <= enemy2X + .08) && (x >= enemy2X - .08) && (y + increment + .1 >= enemy2Y) && (y + increment + .1 <= enemy2Y + .11)) {
@@ -172,7 +172,7 @@ void SpaceShip::drawBullet(bool cont) {
 			enemy2X = (float)(rand() % 200 - 100) / 100;
 			enemy2Y = (float)(rand() % 100) / 100;
 			incrementENemy += .0000001;
-			PlaySound("invaderkilled.wav", NULL, SND_ASYNC);
+			//PlaySound("invaderkilled.wav", NULL, SND_ASYNC);
 			score++;
 		}
 		if ((x <= enemy3X + .08) && (x >= enemy3X - .08) && (y + increment + .1 >= enemy3Y) && (y + increment + .1 <= enemy3Y + .11)) {
@@ -180,7 +180,7 @@ void SpaceShip::drawBullet(bool cont) {
 			enemy3X = (float) (rand() % 200 - 100)/100;
 			enemy3Y = (float)(rand() % 100) / 100; 
 			incrementENemy += .0000001;
-			PlaySound("invaderkilled.wav", NULL, SND_ASYNC);
+			//PlaySound("invaderkilled.wav", NULL, SND_ASYNC);
 			score++;
 		}
 	}
