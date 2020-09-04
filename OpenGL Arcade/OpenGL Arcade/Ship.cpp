@@ -44,11 +44,13 @@ float Ship::getBulletY() {
 
 void Ship::genBullet() {
 	if (GetKeyState(VK_SPACE) & 0x8000) {
-		contBullet = true;
-		bulletX = shipX;
-		bulletY = shipY;
+			contBullet = true;
+			bulletX = shipX;
+			bulletY = shipY;
+			
 	}
 }
+
 
 void Ship::drawBullet() {
 	if (bulletIncrement >= 1.5 && useBullet) {
@@ -85,6 +87,7 @@ void Ship::drawBullet() {
 		if (bulletIncrement >= 1.5 && useBullet) {
 			bulletIncrement = 0;
 			contBullet = false;
+			
 		}
 		else if (missileIncrement >= 2 && !useBullet) {
 			missileIncrement = 0;
@@ -157,4 +160,6 @@ void Ship::updateShip() {
 	drawShip();
 	genBullet();
 	drawBullet();
+	
+	
 }

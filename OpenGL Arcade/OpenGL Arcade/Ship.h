@@ -23,6 +23,7 @@ class Ship
 	float bulletY;
 	std::string weaponType;
 	
+	
 	bool KeynotPress;
 	//Ship Colors
 	float r;

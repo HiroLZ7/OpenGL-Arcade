@@ -131,6 +131,8 @@ void SpaceShipTwo::processCollisions() {
 			int eHealth = activeEnemies.at(e).getHealth();
 			activeEnemies.at(e).setHealth(eHealth - ship->damage);
 			ship->contBullet = false;
+			ship->bulletIncrement = 0;
+			ship->missileIncrement = 0;
 			if (activeEnemies.at(e).getHealth() <= 0) {
 				for(int anim = 0; anim < 10; anim++){
 					drawExplosion((eXmin + eXmax) / 2.0, (eYmin + eYmax) / 2.0); 
