@@ -15,6 +15,9 @@
 #define LOOPTIME 10
 typedef std::chrono::milliseconds ms;
 
+//Objectives
+//Establish boss generation system
+//Create a difficulty system which adds more enemies, increases health and speed, and spawns bosses more frequently
 
 SpaceShipThree::SpaceShipThree() {
 	ship = new Ship();
@@ -178,6 +181,7 @@ void SpaceShipThree::loadEnemy() {
 void SpaceShipThree::loadBoss() {
 	int bossNo = rand() % 5;
 	activeEnemies.clear();
+	activeEnemies.push_back(bossProfiles.at(bossNo));
 
 }
 
@@ -194,6 +198,8 @@ void SpaceShipThree::processCollisions() {
 			int eHealth = activeEnemies.at(e).getHealth();
 			activeEnemies.at(e).setHealth(eHealth - ship->damage);
 			ship->contBullet = false;
+			ship->bulletIncrement = 0;
+			ship->missileIncrement = 0;
 			if (activeEnemies.at(e).getHealth() <= 0) {
 				for (int anim = 0; anim < 10; anim++) {
 					drawExplosion((eXmin + eXmax) / 2.0, (eYmin + eYmax) / 2.0);
@@ -249,14 +255,17 @@ int SpaceShipThree::runSpaceDefender(void) {
 		glClearColor(.01, .01, .01, .5);
 		glClear(GL_COLOR_BUFFER_BIT);
 		//Draw
-		//processCollisions();
+		if (score % 10000 == 0) {
+			loadBoss();
+		}
+		processCollisions();
 		ship->updateShip();
-		/*for (int m = 0; m < activeEnemies.size(); m++) {
+		for (int m = 0; m < activeEnemies.size(); m++) {
 			activeEnemies.at(m).moveEnemy();
 			activeEnemies.at(m).drawEnemy();
-		}*/
-		bossProfiles.at(0).moveEnemy();
-		bossProfiles.at(0).drawEnemy();
+		}
+		//bossProfiles.at(0).moveEnemy();
+		//bossProfiles.at(0).drawEnemy();
 		if (gameover || glfwWindowShouldClose(window)) {
 			std::cout << "Game Over" << std::endl;
 			std::cout << "Score: " << score << std::endl;
