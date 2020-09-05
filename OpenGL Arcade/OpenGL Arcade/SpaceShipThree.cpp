@@ -1,17 +1,4 @@
-#include <iostream>
-#include <GLFW/glfw3.h>
-#include "linmath.h"
-#include <stdlib.h>
-#include<stdio.h>
-#include <Windows.h>
-#include <vector>
-#include <chrono>
-#include <math.h>
-#include "mmSystem.h"
 #include "SpaceShipThree.h"
-#include "Ship.h"
-#include "Enemy.h"
-#include <ctime>
 #define LOOPTIME 10
 typedef std::chrono::milliseconds ms;
 
@@ -19,6 +6,7 @@ typedef std::chrono::milliseconds ms;
 //Establish boss generation system
 //Create a difficulty system which adds more enemies, increases health and speed, and spawns bosses more frequently
 
+//Constructor for the spaceship 3 object
 SpaceShipThree::SpaceShipThree() {
 	ship = new Ship();
 	score = 0;
@@ -30,6 +18,7 @@ SpaceShipThree::SpaceShipThree() {
 	bossRun = false;
 }
 
+//Generates random enemies to add to a bank of enemies
 void SpaceShipThree::generateEnemyProfiles() {
 	for (int enemyPos = 0; enemyPos < enemyTypes; enemyPos++) {
 		//Adds an enemy object to the bank of enemy types
@@ -83,7 +72,7 @@ void SpaceShipThree::generateEnemyProfiles() {
 
 
 }
-
+//Duplicate of generateEnemyProfiles but made for bosses
 void SpaceShipThree::generateBossProfiles() {
 	for (int bossPos = 0; bossPos < bossTypes; bossPos++) {
 		//Adds an enemy object to the bank of enemy types
@@ -138,7 +127,7 @@ void SpaceShipThree::generateBossProfiles() {
 
 }
 
-
+//Draws an explosion animation
 void SpaceShipThree::drawExplosion(float x, float y) {
 	const float deg2rad = 3.14159 / 180;
 	float eR = 1;
@@ -162,7 +151,7 @@ void SpaceShipThree::drawExplosion(float x, float y) {
 	}
 
 }
-
+//Loads enemies into an active enemis buffer to display on screen
 void SpaceShipThree::loadEnemies(int difVar) {
 	for (int e = 0; e < difVar; e++) {
 		loadEnemy();
@@ -185,6 +174,7 @@ void SpaceShipThree::loadBoss() {
 
 }
 
+//processes collisions
 void SpaceShipThree::processCollisions() {
 	for (int e = 0; e < activeEnemies.size(); e++) {
 		//check for bullet collision
@@ -225,6 +215,7 @@ void SpaceShipThree::processCollisions() {
 	}
 }
 
+//Main function for space defender 3
 int SpaceShipThree::runSpaceDefender(void) {
 	if (!glfwInit()) {
 		exit(EXIT_FAILURE);

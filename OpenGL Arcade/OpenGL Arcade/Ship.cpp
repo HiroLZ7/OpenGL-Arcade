@@ -11,6 +11,7 @@
 #include "linmath.h"
 #include "Ship.h"
 
+//constructor for the Ship class
 Ship::Ship() {
 	health = 1;
 	shipX = 0;
@@ -26,6 +27,7 @@ Ship::Ship() {
 	b = 0.05;
 }
 
+//accessor methods
 int Ship::getHealth() {
 	return health;
 }
@@ -42,6 +44,7 @@ float Ship::getBulletY() {
 	return bulletY;
 }
 
+//Listens for keayboard input spacebar and starts process for drawing bullet
 void Ship::genBullet() {
 	if (GetKeyState(VK_SPACE) & 0x8000) {
 			contBullet = true;
@@ -51,7 +54,7 @@ void Ship::genBullet() {
 	}
 }
 
-
+// Function which draws both bullets and missiles
 void Ship::drawBullet() {
 	if (bulletIncrement >= 1.5 && useBullet) {
 		bulletIncrement = 0;
@@ -96,6 +99,7 @@ void Ship::drawBullet() {
 	}
 }
 
+//Draws ship 
 void Ship::drawShip() {
 	glColor3f(r, g, b);
 	glBegin(GL_POLYGON);
@@ -106,6 +110,7 @@ void Ship::drawShip() {
 	glEnd();
 }
 
+//Listens for keyboard input and increments ship coordinates dor movement
 void Ship::moveShip() {
 	if (GetKeyState('W') & 0x8000) {
 		if (shipY + 0.01 < 1) {
@@ -129,7 +134,7 @@ void Ship::moveShip() {
 	}
 }
 
-
+//switches active weapon
 void Ship::switchWeapon() {
 	if (GetKeyState('Z') & 0x8000) {
 		
@@ -154,6 +159,7 @@ void Ship::switchWeapon() {
 	
 }
 
+//Updating function which runs all background processes
 void Ship::updateShip() {
 	switchWeapon();
 	moveShip();

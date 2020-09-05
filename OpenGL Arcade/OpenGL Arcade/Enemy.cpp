@@ -10,6 +10,7 @@
 #include "mmSystem.h"
 #include "Enemy.h"
 
+//Constructor for the Enemy class
 Enemy::Enemy() {
 	health = 0;
 	verticies = 0;
@@ -22,6 +23,8 @@ Enemy::Enemy() {
 	g = 0;
 	b = 0;
 }
+
+//Mutators for enemy parameters
 void Enemy::setHealth(int h){
 	health = h;
 }
@@ -64,6 +67,7 @@ void Enemy::setRGB(float r, float g, float b) {
 	this->b = b;
 }
 
+// Return the minimum and maximum values from the offsets vectors for both x and y
 float Enemy::maxXoffset() {
 	return *max_element(offsetsX.begin(), offsetsX.end());
 }
@@ -80,13 +84,14 @@ float Enemy::minYoffset() {
 	return *min_element(offsetsY.begin(), offsetsY.end());
 }
 
+//sets the offsets of verticies from the starting x,y point
 void Enemy::setOffsets(std::vector<float> offX, std::vector<float> offY) {
 	for (int i = 0; i < verticies; i++) {
 		offsetsX.push_back(offX.at(i));
 		offsetsY.push_back(offY.at(i));
 	}
 }
-
+//This function orders all the points of enemy shape strating at the origin of the shape and endling at the highest x value
 void Enemy::sortVectors() {
 	std::vector<float> newX;
 	std::vector<float> newY;
@@ -111,6 +116,7 @@ void Enemy::sortVectors() {
 	offsetsY = newY;
 }
 
+//draws enemy object
 void Enemy::drawEnemy() {
 	if (health > 0) {
 		glColor3f(r, g, b);
@@ -123,6 +129,7 @@ void Enemy::drawEnemy() {
 	}
 }
 
+//increments enemy y coordinates to move the enemy
 void Enemy::moveEnemy() {
 	if (health > 0) {
 		enemyY -= enemyIncrement;

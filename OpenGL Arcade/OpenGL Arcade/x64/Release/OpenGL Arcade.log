@@ -1,38 +1,9 @@
-﻿  SpaceShipThree.cpp
+﻿  Enemy.cpp
 c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
   c:\users\yazan\documents\code\opengl arcade\opengl arcade\include\glfw\glfw3.h(104): note: see previous definition of 'APIENTRY'
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(25): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(39): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(43): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(44): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(91): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(93): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(96): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(97): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(98): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(116): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(122): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(140): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(144): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(155): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(156): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(157): warning C4305: '+=': truncation from 'double' to 'float'
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(172): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(173): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(175): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(188): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(202): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(252): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\enemy.cpp(18): warning C4305: '=': truncation from 'double' to 'float'
   Generating code
-c:\users\yazan\documents\github\opengl-arcade\opengl arcade\opengl arcade\spaceshipthree.cpp(285): warning C4715: 'SpaceShipThree::runSpaceDefender': not all control paths return a value
-  4 of 404 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+  0 of 404 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
