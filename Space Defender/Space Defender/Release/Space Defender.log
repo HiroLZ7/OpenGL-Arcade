@@ -1,0 +1,12 @@
+﻿SpaceShip.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwSwapInterval
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwGetFramebufferSize
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwTerminate
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwPollEvents
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwInit
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwWindowHint
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwDestroyWindow
+SpaceShip.obj : error LNK2001: unresolved external symbol _glfwWindowShouldClose
+C:\Users\yazan\Documents\GitHub\OpenGL-Arcade\Space Defender\Release\Space Defender.exe : fatal error LNK1120: 11 unresolved externals

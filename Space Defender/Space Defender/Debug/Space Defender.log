@@ -1,0 +1,38 @@
+﻿  cApp.cpp
+  cMain.cpp
+  Generating Code...
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwInit
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwInit
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwTerminate
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwTerminate
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwWindowHint
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwWindowHint
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwDestroyWindow
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwDestroyWindow
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwWindowShouldClose
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwWindowShouldClose
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwGetFramebufferSize
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwGetFramebufferSize
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwPollEvents
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwPollEvents
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+SpaceShip.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "public: int __thiscall SpaceShip::runSpaceDefender(void)" (?runSpaceDefender@SpaceShip@@QAEHXZ)
+SpaceShipThree.obj : error LNK2001: unresolved external symbol _glfwSwapInterval
+SpaceShipTwo.obj : error LNK2001: unresolved external symbol _glfwSwapInterval
+C:\Users\yazan\Documents\GitHub\OpenGL-Arcade\Space Defender\Space Defender\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\yazan\Documents\GitHub\OpenGL-Arcade\Space Defender\Debug\Space Defender.exe : fatal error LNK1120: 11 unresolved externals

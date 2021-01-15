@@ -1,0 +1,124 @@
+﻿  cApp.cpp
+  cMain.cpp
+  Enemy.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\include\glfw\glfw3.h(104): note: see previous definition of 'APIENTRY'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\enemy.cpp(19): warning C4305: '=': truncation from 'double' to 'float'
+  Ship.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\include\glfw\glfw3.h(104): note: see previous definition of 'APIENTRY'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(18): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(25): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(26): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(27): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(70): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(73): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(78): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(81): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(82): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(83): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(84): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(85): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(88): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(89): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(107): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(108): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(109): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(117): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(122): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(127): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\ship.cpp(132): warning C4305: '-=': truncation from 'double' to 'float'
+  SpaceShip.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\include\glfw\glfw3.h(104): note: see previous definition of 'APIENTRY'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(13): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(26): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(36): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(49): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(55): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(58): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(67): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(70): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(71): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(72): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(79): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(82): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(83): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(84): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(96): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(99): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(100): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(101): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(120): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(125): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(130): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(135): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(155): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(157): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(166): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(174): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(182): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(216): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  SpaceShipThree.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\include\glfw\glfw3.h(104): note: see previous definition of 'APIENTRY'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(16): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(83): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(85): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(88): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(89): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(90): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(108): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(113): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(132): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(136): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(147): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(148): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(149): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(164): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(165): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(167): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(181): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(195): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(246): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  SpaceShipTwo.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\include\glfw\glfw3.h(104): note: see previous definition of 'APIENTRY'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(24): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(65): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(83): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(87): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(98): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(99): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(100): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(115): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(118): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(124): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(138): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(187): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  Generating Code...
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshiptwo.cpp(215): warning C4715: 'SpaceShipTwo::runSpaceDefender': not all control paths return a value
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceshipthree.cpp(279): warning C4715: 'SpaceShipThree::runSpaceDefender': not all control paths return a value
+c:\users\yazan\documents\github\opengl-arcade\space defender\space defender\spaceship.cpp(245): warning C4715: 'SpaceShip::runSpaceDefender': not all control paths return a value
+LINK : fatal error LNK1104: cannot open file 'glfw3.lib'
